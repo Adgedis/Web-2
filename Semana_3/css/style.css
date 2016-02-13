@@ -1,0 +1,36 @@
+#container
+{
+    height:400px;
+    width:600px;
+    position:relative;
+    left: 400px;
+    top: 290px;
+}
+
+#image
+{    
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+
+#text {
+    z-index: 100;
+    position: absolute;
+    color: #404041;
+    font-size: 24px;
+    font-weight: bold;
+    left: 10px; 
+    top: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body { 
+  background: url(../bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+

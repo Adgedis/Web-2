@@ -1,0 +1,74 @@
+.modal  {
+    /*   display: block;*/
+    padding-right: auto;
+    background-color: #000000; 
+    }
+   
+    .modal-dialog {
+            top: 50%;
+                width: 30%;
+    position: absolute;
+        }
+        .modal-content {
+                border-radius: 1px;
+                border: none;
+    top: 60%;
+            }
+            .modal-body {
+                    background-color: #000000;  
+    color: white;
+                }
+               
+
+ .container {
+   display: block;
+    margin-left: auto;
+    margin-right: auto 
+ }              
+
+body {
+  font-size: 20 px; 
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.btn-primary {
+  color: #fff;
+  margin:0px auto;
+  margin-top: 400px;
+}
+
+
+.container {    
+    text-align: center;
+}
+
+#par {
+    font-size: 800%;
+    text-align: center;
+    margin-top: 400px;
+}
+
+.par {
+  font-size: 1000%;
+}
+
+.indi {
+  text-align: center;
+  padding-left: -100px;
+}
+
+
+p {
+    margin: 10px 0 0px;
+    padding-left: 300px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px;
+    padding-top: 100px;
+}
