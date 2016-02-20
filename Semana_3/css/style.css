@@ -16,7 +16,7 @@
 
 
 #text {
-    z-index: 100;
+    z-index: 1;
     position: absolute;
     color: #404041;
     font-size: 24px;
@@ -24,13 +24,57 @@
     left: 10px; 
     top: 50px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 body { 
-  background: url(../bg.png) no-repeat center center fixed;
+  background: url(../bs2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;   
 }
 
+#marco1 {
+  z-index: 2;
+  position: absolute;
+  vertical-align: middle;
+  top: -53%;
+  left: -35%;
+}
+
+#container2
+{
+    height:400px;
+    width:600px;
+    position:relative;
+    left: 450px;
+    top: 500px;
+}
+
+#image2
+{    
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+#marco2 {
+  z-index: 2;
+  position: absolute;
+  vertical-align: middle;
+  top: -32%;
+  left: -20%;
+}
+
+#text2 {
+    z-index: 1;
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    left: 10px; 
+    top: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 2px 2px  3px black;
+}
