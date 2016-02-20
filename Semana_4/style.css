@@ -1,0 +1,19 @@
+body { 
+  background: url(bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+#container {
+	position:relative;
+	top: 100px;
+	left: 500px;
+    z-index: 1;
+    position: absolute;
+    color: #404041;
+    font-size: 12px;
+    font-family: 'Indie Flower', cursive;
+
+}
