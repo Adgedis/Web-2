@@ -1,19 +1,46 @@
-body { 
-  background: url(bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;   
-}
 
 #container {
 	position:relative;
 	top: 100px;
-	left: 500px;
-    z-index: 1;
-    position: absolute;
-    color: #404041;
-    font-size: 12px;
-    font-family: 'Indie Flower', cursive;
+	left: 100px;
+  z-index: 1;
+  color: #404041;
+  font-family: 'Playfair Display', serif;
 
+}
+
+#sub{
+  margin-top: 0px;
+  font-family: 'Fauna One', serif;
+  margin-bottom: 0px;
+
+}
+
+h1 {
+  margin-bottom: 0px;
+  font-size: 50px;
+
+}
+#script {
+  font-family: 'Fauna One', serif;
+  : red 1px;
+}
+
+#palabra {
+  border: 1px red;
+}
+#divisor {
+  height:3px;
+  width: 263px;
+  background-color: black;
+  margin-top: 0px;
+  top: 0px;
+  margin-bottom: 20px;
+  margin-top: -17px;
+}
+
+#texto { 
+border: 1px red;
+margin-top: 100px;
+ font-family: 'Fauna One', serif;
 }
