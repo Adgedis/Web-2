@@ -1,6 +1,6 @@
       $(document).ready(function () {
           var audioElement = document.createElement('audio');
-          audioElement.setAttribute('src', 'http://static1.grsites.com/archive/sounds/quotes/quotes006.mp3');
+          audioElement.setAttribute('src', '06. Exercises in Futility VI.mp3');
           audioElement.setAttribute('autoplay:false', 'autoplay');
           //audioElement.load code above. if you take out :false from the code the file will auto play than everythin works the same after that()
           $.get();
